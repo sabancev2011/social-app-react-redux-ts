@@ -1,0 +1,21 @@
+.profileFriendItem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90px;
+    text-align: center;
+    margin-bottom: 15px;
+    img {
+        border-radius: 30px;
+        display: block;
+        margin: 0 auto;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,41 @@
+.contactsItem {
+    margin: 30px 0;
+    display: flex;
+    width: 100%;
+    padding: 10px; 
+    cursor: pointer;
+    &__img {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+        }
+    }
+    &__name {
+        font-size: 14px;
+        text-align: left;
+        font-weight: 600;
+    }
+    &__lastMessage {
+        color: #939598;
+        padding: 5px 5px 5px 0;
+        width: 150px;
+        font-size: 14px;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    span {
+        color: #939598;
+        font-size: 12px;
+        width: 100%;
+        text-align: right;
+    }
+    &.active{
+        background-color: #cfecfd;
+    }
+}

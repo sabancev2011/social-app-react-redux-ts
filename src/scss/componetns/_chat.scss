@@ -1,0 +1,13 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-left: 10px;
+    &__content {
+        padding: 35px 15px 15px 25px;
+    }
+}

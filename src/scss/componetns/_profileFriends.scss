@@ -1,0 +1,11 @@
+.profileFriends {
+    &__title {
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-family: 600;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

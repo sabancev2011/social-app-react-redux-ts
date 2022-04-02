@@ -1,0 +1,21 @@
+export { default as Header } from "./Header";
+export { default as Sidebar } from "./Sidebar";
+export { default as Share } from "./Share";
+export { default as PostItem } from "./PostItem";
+export { default as UserInfo } from "./UserInfo";
+export { default as ProfileFriendItem } from "./ProfileFriendItem";
+export { default as Contacts } from "./Contacts";
+export { default as Chat } from "./Chat";
+export { default as ContactsItem } from "./ContactsItem";
+export { default as ChatItem } from "./ChatItem";
+export { default as SendMessage } from "./SendMessage";
+export { default as Icons } from "./Icons";
+export { default as ProfileTop } from "./ProfileTop";
+export { default as Posts } from "./Posts";
+export { default as ProfileFriends } from "./ProfileFriends";
+export { default as UsersItem } from "./UsersItem";
+export { default as SelectUserItem } from "./SelectUserItem";
+export { default as Loader } from "./Loader";
+export { default as PageList } from "./PageList"
+export { default as UserInfoItem } from "./UserInfoItem"
+

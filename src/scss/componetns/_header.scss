@@ -1,0 +1,10 @@
+.header {
+    &__logoBtn {
+        display: flex;
+        align-items: center;
+        min-height: 100px;
+        h3 {
+            color: #109cf1;
+        }
+    }
+}
